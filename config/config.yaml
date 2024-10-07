@@ -1,0 +1,21 @@
+data_ingestion:
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  test_size: 0.2
+  random_state: 42
+
+forecasting_model:
+  model_name: "Prophet"  # You can change this if using a different model
+  prediction_horizon_weeks: 15
+  top_products: 10
+
+file_paths:
+  transactions_file: "data/Transactional_data_retail_01.csv"
+  transactions_file_2: "data/Transactional_data_retail_02.csv"
+  demographics_file: "data/CustomerDemographics.csv"
+  product_info_file: "data/ProductInfo.csv"
+
+app_config:
+  stock_input: "Enter stock ID"
+  forecast_output_file: "output/forecasted_demand.csv"
+  error_metric_plots: "output/error_histograms.png"

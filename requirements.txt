@@ -1,0 +1,28 @@
+
+# Core Libraries
+pandas          # Data manipulation and analysis
+numpy           # Numerical computing
+scikit-learn    # Machine learning library
+statsmodels     # Statistical modeling
+matplotlib      # Plotting library
+seaborn         # Statistical data visualization
+plotly          # Interactive plotting
+joblib          # For saving models
+
+# Time Series Analysis
+pmdarima        # For ARIMA modeling
+prophet         # For forecasting with Prophet
+
+# Deep Learning
+tensorflow      # For deep learning (if using LSTM)
+keras           # High-level API for TensorFlow
+
+# Web Framework for App
+streamlit       # Web app framework for creating the dashboard
+
+# Logging and Configuration
+pyyaml          # For configuration files
+loguru          # Advanced logging library
+
+# Additional Libraries
+jupyter         # For running notebooks
